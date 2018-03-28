@@ -191,9 +191,9 @@ Seguro que unas estaciones de trabajo más potentes serán bienvenidas. Pero no 
 Incluso aunque ninguna avance tecnológico prometa dar el tipo de resultado mágico al que estamos acostumbrados en el hardware, actualmente hay abundancia de buenos trabajos, y la promesa de avances firmes, aunque no espectaculares.
 
 Todos los ataques tecnológicos a los accidentes en el proceso del software están limitados fundamentalmente por la ecuación de la productividad:
-´´´
+
 Tiempo de tarea = $\sum$ (Frecuency)<sub>i</sub> X (Time)<sub>i</sub>
-´´´
+
 Si, como creo, los componentes conceptuales de la tarea están ocupando ahora la mayoría del tiempo, entonces ninguna actividad sobre las partes necesarias del trabajo que consistan simplemente en la expresión de los conceptos dará grandes ganancias de productividad.
 
 Deberíamos centrarnos en aquellos ataques sobre la esencia del problema del software, la formulación de estructuras conceptuales complejas. Afortunadamente, algunos de estos ataques son prometedores.

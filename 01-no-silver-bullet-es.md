@@ -192,7 +192,7 @@ Incluso aunque ninguna avance tecnológico prometa dar el tipo de resultado mág
 
 Todos los ataques tecnológicos a los accidentes en el proceso del software están limitados fundamentalmente por la ecuación de la productividad:
 
-    **Tiempo de tarea = $\sum$ (Frecuency)<sub>i</sub> X (Time)<sub>i</sub>**
+**Tiempo de tarea = $\sum$ (Frecuency)<sub>i</sub> X (Time)<sub>i</sub>**
 
 Si, como creo, los componentes conceptuales de la tarea están ocupando ahora la mayoría del tiempo, entonces ninguna actividad sobre las partes necesarias del trabajo que consistan simplemente en la expresión de los conceptos dará grandes ganancias de productividad.
 

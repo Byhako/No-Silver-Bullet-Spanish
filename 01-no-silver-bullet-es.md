@@ -24,7 +24,7 @@ Segundo. Para ver la tasa de progreso que podemos esperar en la tecnología del 
 
 La esencia de una entidad de software es que es una construcción de conceptos entrelazados: conjuntos de datos, relaciones entre los datos, algoritmos y llamadas a funciones. Esta esencia nos indica que uno de estos conceptos abstractos construidos tiene muchas representaciones. Sin embargo es muy preciso y muy detallado.
 
-__Creo que la parte más dura de construir software es la especificación, diseño y prueba de este concepto construido, no el trabajo de representarlo y comprobar la fidelidad de la representación.__ Todavía tendremos errores de sintaxis, evidentemente; pero eso es trivial si lo comparamos con los errores conceptuales en la mayoría de los sistemas.
+_Creo que la parte más dura de construir software es la especificación, diseño y prueba de este concepto construido, no el trabajo de representarlo y comprobar la fidelidad de la representación._ Todavía tendremos errores de sintaxis, evidentemente; pero eso es trivial si lo comparamos con los errores conceptuales en la mayoría de los sistemas.
 
 Si esto es cierto, hacer software siempre será algo duro. No hay ninguna bala de plata.
 
@@ -36,7 +36,7 @@ Los ordenadores digitales son en si mismos más complejos que la mayoría de las
 
 Además, un incremento en escala de una entidad de software no consiste meramente en repetir algunos elementos a mayor escala, sino que es necesario incrementar el número de elementos diferentes. En la mayoría de los casos, el número de interacciones entre los elementos cambia de una forma no lineal con el número de elementos y la complejidad se incrementa a un ritmo mucho más que lineal.
 
-La complejidad del software es una propiedad esencial, no accidental. Además, una descripción de una entidad de software que elimine su complejidad a menudo elimina su esencia. Durante tres siglos, los matemáticos y los físicos han hecho grandes avances construyendo modelos simplificados de fenómenos complejos, derivando propiedades de los modelos, y verificando esas propiedades experimentalmente. __Este paradigma funcionó porque las complejidades ignoradas en los modelos no eran las propiedades esenciales del fenómeno.__ Pero eso no funciona cuando las complejidades son la esencia misma.
+La complejidad del software es una propiedad esencial, no accidental. Además, una descripción de una entidad de software que elimine su complejidad a menudo elimina su esencia. Durante tres siglos, los matemáticos y los físicos han hecho grandes avances construyendo modelos simplificados de fenómenos complejos, derivando propiedades de los modelos, y verificando esas propiedades experimentalmente. _Este paradigma funcionó porque las complejidades ignoradas en los modelos no eran las propiedades esenciales del fenómeno._ Pero eso no funciona cuando las complejidades son la esencia misma.
 
 Muchos de los problemas clásicos del desarrollo de software derivan de esta complejidad esencial y su incremento no lineal con el tamaño. De la complejidad procede la dificultad de comunicación entre los miembros del equipo, que conduce a productos defectuosos, sobrecostes y retrasos. De la complejidad procede la dificultad de enumerar, y aún más comprender, todos los posibles estados del programa, y de hay procede la falta de fiabilidad. De la complejidad de la función procede la dificultad de llamar a la función, lo que hace difícil de usar al programa. De la complejidad de la estructura procede la dificultad en extender el programa para realizar nuevas funciones sin crear efectos laterales. De la complejidad de la estructura proceden los estados no previstos que se convierten en agujeros de seguridad.
 
@@ -112,11 +112,10 @@ Sin embargo, tales avances pueden hacer poco más que eliminar todas las dificul
 
 D.L. Parnas ha aclarado el caos terminológico: [4]
 
-    *Dos tipos bastante diferentes de AI son de uso común hoy en día. AI-1: el uso de ordenadores para solucionar problemas que previamente sólo podían solventarse utilizando inteligencia humana. AI-2: El uso de un conjunto específico de técnicas de programación conocidas como heurísticas o programación basada en reglas. En esta aproximación, se estudia a expertos humanos para determinar que heurísticas o reglas utilizan para solucionar problemas... El programa se diseña para solucionar un problema de la misma forma que los humanos parecen hacerlo.*
 
-    *La primera definición tiene un significado que va cambiando... Algo puede encajar con la definición de AI-1 hoy, pero una vez que sabemos como trabaja el programa y comprendemos el problema, no lo veremos como AI nunca más... Desafortunadamente no puedo identificar un único cuerpo de tecnología en este campo... La mayoría del trabajo es específico a un problema, y se requiere algo de abstracción o creatividad para ver la forma de transferirlo.*
++ *Dos tipos bastante diferentes de AI son de uso común hoy en día. AI-1: el uso de ordenadores para solucionar problemas que previamente sólo podían solventarse utilizando inteligencia humana. AI-2: El uso de un conjunto específico de técnicas de programación conocidas como heurísticas o programación basada en reglas. En esta aproximación, se estudia a expertos humanos para determinar que heurísticas o reglas utilizan para solucionar problemas... El programa se diseña para solucionar un problema de la misma forma que los humanos parecen hacerlo.* <br/> *La primera definición tiene un significado que va cambiando... Algo puede encajar con la definición de AI-1 hoy, pero una vez que sabemos como trabaja el programa y comprendemos el problema, no lo veremos como AI nunca más... Desafortunadamente no puedo identificar un único cuerpo de tecnología en este campo... La mayoría del trabajo es específico a un problema, y se requiere algo de abstracción o creatividad para ver la forma de transferirlo.*
 
-Coincido completamente con esta crítica. Las técnicas usadas para reconocimiento de voz parecen tener poco que ver con las usadas para reconocimiento de imágenes, y ambas son muy diferentes de las usadas en los sistemas expertos. Se me hace difícil ver como el reconocimiendo de imágenes, por ejemplo, producirá una diferencia apreciable en la práctica de la programación. Lo mismo ocurre con el reconocimiento del habla. __Lo difícl al escribir software es decidir lo que uno quiere decir, no decirlo__. Ninguna facilidad en la expresión puede dar más que ganancias marginales.
+Coincido completamente con esta crítica. Las técnicas usadas para reconocimiento de voz parecen tener poco que ver con las usadas para reconocimiento de imágenes, y ambas son muy diferentes de las usadas en los sistemas expertos. Se me hace difícil ver como el reconocimiendo de imágenes, por ejemplo, producirá una diferencia apreciable en la práctica de la programación. Lo mismo ocurre con el reconocimiento del habla. _Lo difícl al escribir software es decidir lo que uno quiere decir, no decirlo_. Ninguna facilidad en la expresión puede dar más que ganancias marginales.
 
 A la tecnología de sistemas expertos, AI-2, le reservo una sección entera.
 
@@ -145,7 +144,7 @@ La contribución más poderosa de los sistemas expertos posiblemente será poner
 
 Parnas [4] implica que el término se usa por su glamour, no por la semántica de su palabra, aseverando,
 
-    *Resumiendo, la programación automática siempre ha sido un eufemismo para la programación en un lenguaje de alto nivel que estaba disponible en ese momento para el programador.*
+*Resumiendo, la programación automática siempre ha sido un eufemismo para la programación en un lenguaje de alto nivel que estaba disponible en ese momento para el programador.*
 
 Esencialmente argumenta que en la mayoría de los casos las especificaciones que deben tenerse no son las del problema sino las del método para su solución.
 
@@ -192,11 +191,9 @@ Seguro que unas estaciones de trabajo más potentes serán bienvenidas. Pero no 
 Incluso aunque ninguna avance tecnológico prometa dar el tipo de resultado mágico al que estamos acostumbrados en el hardware, actualmente hay abundancia de buenos trabajos, y la promesa de avances firmes, aunque no espectaculares.
 
 Todos los ataques tecnológicos a los accidentes en el proceso del software están limitados fundamentalmente por la ecuación de la productividad:
-
-
-$Tiempo$ $de$ $tarea$ $=$ $\sum \left ( Frecuency \right )_i \times (Time)_i$
-
-
+´´´
+Tiempo de tarea = $\sum$ (Frecuency)<sub>i</sub> X (Time)<sub>i</sub>
+´´´
 Si, como creo, los componentes conceptuales de la tarea están ocupando ahora la mayoría del tiempo, entonces ninguna actividad sobre las partes necesarias del trabajo que consistan simplemente en la expresión de los conceptos dará grandes ganancias de productividad.
 
 Deberíamos centrarnos en aquellos ataques sobre la esencia del problema del software, la formulación de estructuras conceptuales complejas. Afortunadamente, algunos de estos ataques son prometedores.
@@ -223,7 +220,7 @@ Creo que la más potente estrategia de productividad del software para muchas or
 
 **Refinamiento de requisitos y prototipado rápido.** La parte más dura de hacer software es, precisamente, decidir lo que hacer. Ninguna otra de las partes en que se divide este trabajo es tan difícil como establecer los requisitos técnicos detallados, incluyendo todas las interfaces con la personas, las máquinas y los otros sistemas de software. Ninguna otra parte del trabajo destroza tanto el resultado final si se hace mal. Ninguna otra parte resulta tan díficil de rectificar a posteriori.
 
-Por tanto, __la función más importante que realiza el diseñador de software para el cliente es la extracción iterativa y el refinamiento de los requisitos del producto.__ La verdad es que el cliente no sabe lo que quiere. El cliente normalmente no sabe que preguntas deben ser respondidas, y casi nunca ha pensado en los detalles del problema necesarios para la especificación. Incluso la simple respuesta ("Haz que el nuevo software trabaje como nuestro viejo sistema de procesado manual de la información") es de hecho demasiado simple. Uno nunca quiere exactamente eso. Es más, los sistemas de software complejos son cosas que actúan, se mueven, que trabajan. La dinámica de esa acción son difíciles de imaginar. Por tanto, al planificar cualquier actividad de diseño de software, es necesario permitir un trabajo iterativo extensivo entre el cliente y el diseñador como parte de la definición del sistema.
+Por tanto, _la función más importante que realiza el diseñador de software para el cliente es la extracción iterativa y el refinamiento de los requisitos del producto._ La verdad es que el cliente no sabe lo que quiere. El cliente normalmente no sabe que preguntas deben ser respondidas, y casi nunca ha pensado en los detalles del problema necesarios para la especificación. Incluso la simple respuesta ("Haz que el nuevo software trabaje como nuestro viejo sistema de procesado manual de la información") es de hecho demasiado simple. Uno nunca quiere exactamente eso. Es más, los sistemas de software complejos son cosas que actúan, se mueven, que trabajan. La dinámica de esa acción son difíciles de imaginar. Por tanto, al planificar cualquier actividad de diseño de software, es necesario permitir un trabajo iterativo extensivo entre el cliente y el diseñador como parte de la definición del sistema.
 
 Quisiera ir un paso más allá y asegurar que es realmente imposible para un cliente, trabajando con un ingeniero de software, especificar completa, precisa y correctamente los requisitos exactos de un sistema de software moderno sin probar algunas versiones de prueba del sistema.
 
@@ -250,7 +247,7 @@ Los mismos beneficios se obsevan tanto en proyectos enormes como en los más peq
 
 **Grandes diseñadores.** La cuestión central sobre como mejorar el arte del software se centra, como siempre, en la gente.
 
-Podemos conseguir buenos diseños siguiendo prácticas buenas en lugar de pobres. Las buenas prácticas de diseño pueden enseñarse. __Los programadores están entre los más inteligentes entre la población__, por lo que pueden aprender buenas prácticas. A partir de ahora, una de las mayores obligaciones en USA debería ser promulgar prácticas buenas y modernas. Nuevos curriculums, nueva literatura, nuevas organizaciones tales como el *Software Engineering Institute*, todas deberían enfocarse en subir el nivel de nuestras prácticas de uno pobre a otro bueno. Esto es completamente apropiado.
+Podemos conseguir buenos diseños siguiendo prácticas buenas en lugar de pobres. Las buenas prácticas de diseño pueden enseñarse. _Los programadores están entre los más inteligentes entre la población_, por lo que pueden aprender buenas prácticas. A partir de ahora, una de las mayores obligaciones en USA debería ser promulgar prácticas buenas y modernas. Nuevos curriculums, nueva literatura, nuevas organizaciones tales como el *Software Engineering Institute*, todas deberían enfocarse en subir el nivel de nuestras prácticas de uno pobre a otro bueno. Esto es completamente apropiado.
 
 No obstante, no creo que podamos dar el siguiente paso adelante en la misma forma. Mientras que la diferencia entre diseños conceptuales pobres y buenos debe descansar en lo saludable del método de diseño, la diferencia entre diseños buenos y excelentes seguramente no. Los diseños excelentes proceden de diseñadores excelentes. La construcción de software es un proceso creativo. *Una metodología sana puede potenciar y liberar la mente creativa; pero no puede inflamar o inspirar al esclavo.*
 
